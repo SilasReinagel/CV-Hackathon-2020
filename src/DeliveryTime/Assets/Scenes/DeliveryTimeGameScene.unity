@@ -1790,7 +1790,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   game: {fileID: 11400000, guid: 26b78a62af3d8984a985383c5b9f59d8, type: 2}
   currentLevel: {fileID: 11400000, guid: f81c10460cdb9464397ed5864a15114b, type: 2}
-  newLevel: {fileID: 11400000, guid: 53bce6568902ad845b72243823111f80, type: 2}
+  newLevel: {fileID: 11400000, guid: b0aa9a43b8c774044ba92b130a986b0c, type: 2}
 --- !u!222 &963727646073183993
 CanvasRenderer:
   m_ObjectHideFlags: 0
