@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed685f8f2b2143dda5e175dec4f46ca4, type: 3}
   m_Name: CurrentZone
   m_EditorClassIdentifier: 
-  zones: {fileID: 11400000, guid: da6d9607955f7a04cac5744764d95f85, type: 2}
-  zone: {fileID: 11400000, guid: 3e2fbcd9a0964004f8268315f80eadeb, type: 2}
+  zones: {fileID: 11400000, guid: c07180215d0512b4c95109808269dc50, type: 2}
+  zone: {fileID: 11400000, guid: d22104c96c6d70043b692034d1f8e0e3, type: 2}
   onCurrentZoneChanged: {fileID: 11400000, guid: a37264a735c07894dae454f282156a6f,
     type: 2}
+  zoneIndex: 1

@@ -2,7 +2,6 @@ using UnityEngine;
 
 public sealed class CollectStarOnEntered : OnMessage<PieceMoved>
 {
-    [SerializeField] private GameObject collectedStar;
     [SerializeField] private CurrentLevelMap map;
 
     private void Start()
@@ -16,8 +15,6 @@ public sealed class CollectStarOnEntered : OnMessage<PieceMoved>
         
         Message.Publish(StarCollected.OnMapDataCube(gameObject));
         Message.Publish(new ObjectDestroyed(gameObject));
-        var star = Instantiate(collectedStar, transform.parent);
-        star.transform.localPosition = transform.localPosition;
     }
 
     public void Revert() => gameObject.SetActive(true);
