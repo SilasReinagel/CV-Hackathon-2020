@@ -100,7 +100,6 @@ public class CurrentLevelMap : ScriptableObject
     
     public void Remove(GameObject obj)
     {
-        Debug.Log($"Removed {obj.name} from map");
         Notify(() =>
         {
             destroyedObjects[obj] = new ObjectRules

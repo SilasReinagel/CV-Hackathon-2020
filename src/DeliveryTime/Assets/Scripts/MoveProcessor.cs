@@ -17,7 +17,6 @@ public sealed class MoveProcessor : OnMessage<MoveToRequested>
 
         foreach (var proposal in movementProposals)
         {
-            Debug.Log($"Movement Proposed {proposal.Type}");
             if (map.MovementRestrictionRules.All(x => x.IsValid(proposal)))
             {
                 Message.Publish(new PieceMoved(proposal.Piece, m.From, m.To));

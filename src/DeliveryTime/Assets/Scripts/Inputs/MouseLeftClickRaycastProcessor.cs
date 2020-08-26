@@ -22,7 +22,6 @@ namespace Inputs
             
             var ray = _camera.ScreenPointToRay(Input.mousePosition);
             var numHits = Physics.RaycastNonAlloc(ray, _hits, 100f);
-            Debug.Log($"NumHits {numHits}");
             for (var i = 0; i < numHits; i++)
             {
                 var obj = _hits[i].transform.gameObject;

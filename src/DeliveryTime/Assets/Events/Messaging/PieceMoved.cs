@@ -20,7 +20,6 @@ public sealed class PieceMoved
     {
         var hasJumpedOver = From.IsAdjacentTo(new TilePoint(other)) && To.IsAdjacentTo(new TilePoint(other))
                                                        && (To.X == From.X || To.Y == From.Y);
-        Debug.Log($"{Piece.name} Has Jumped Over {other.name}: {hasJumpedOver}");
         return hasJumpedOver;
     }
 

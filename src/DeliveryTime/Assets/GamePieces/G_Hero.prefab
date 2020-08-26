@@ -147,8 +147,13 @@ MonoBehaviour:
     ConstantValue: 0
     FloatVariable: {fileID: 11400000, guid: 1dccffabc4f81ef40903790673180c5f, type: 2}
   map: {fileID: 11400000, guid: 3e1868dedbe7c5945b4fe845baa54d80, type: 2}
-  rotateTarget: {fileID: 0}
-  shouldRotate: 0
+  initialFacing: 0
+  secondsToRotate:
+    UseConstant: 1
+    ConstantValue: 0.16
+    FloatVariable: {fileID: 0}
+  rotateTarget: {fileID: 7916733903093310253}
+  shouldRotate: 1
 --- !u!82 &6400054691521138467
 AudioSource:
   m_ObjectHideFlags: 0
