@@ -12,4 +12,9 @@ public sealed class DestroyIfJumpedNoDeathAnim : OnMessage<PieceMoved>
         sfx.Play(sound.clip, sound.volume);
         Message.Publish(new ObjectDestroyed(gameObject, false));
     }
+
+    public void Revert()
+    {
+        gameObject.SetActive(true);
+    }
 }
