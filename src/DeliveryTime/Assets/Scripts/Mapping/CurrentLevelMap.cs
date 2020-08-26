@@ -10,7 +10,7 @@ public class CurrentLevelMap : ScriptableObject
     [DTValidator.Optional, SerializeField] private GameObject hero;
     [DTValidator.Optional, SerializeField] private List<GameObject> walkableTiles = new List<GameObject>();
     [DTValidator.Optional, SerializeField] private List<GameObject> blockedTiles = new List<GameObject>();
-    [DTValidator.Optional, SerializeField] private List<GameObject> jumpableObjects = new List<GameObject>();
+    [DTValidator.Optional, SerializeField] private HashSet<GameObject> jumpableObjects = new HashSet<GameObject>();
     [DTValidator.Optional, SerializeField] private List<GameObject> selectableObjects = new List<GameObject>();
     [DTValidator.Optional, SerializeField] private List<GameObject> collectibleObjects = new List<GameObject>();
     [DTValidator.Optional, SerializeField] private Dictionary<GameObject, ObjectRules> destroyedObjects = new Dictionary<GameObject, ObjectRules>();
@@ -34,6 +34,7 @@ public class CurrentLevelMap : ScriptableObject
 
     public void InitLevel(string activeLevelName)
     {
+        Debug.Log($"Init Level");
         HasLost = false;
         levelName = activeLevelName;
         min = new Vector2();
@@ -42,7 +43,7 @@ public class CurrentLevelMap : ScriptableObject
         hero = null;
         walkableTiles = new List<GameObject>();
         blockedTiles = new List<GameObject>();
-        jumpableObjects = new List<GameObject>();
+        jumpableObjects = new HashSet<GameObject>();
         selectableObjects = new List<GameObject>();
         collectibleObjects = new List<GameObject>();
         destroyedObjects = new Dictionary<GameObject, ObjectRules>();
@@ -55,7 +56,12 @@ public class CurrentLevelMap : ScriptableObject
     public void AddMovementRestrictionRule(MovementRestrictionRule restrictionRule) => movementRestrictionRules.Add(restrictionRule);
 
     public void RegisterAsSelectable(GameObject obj) => selectableObjects.Add(obj);
-    public void RegisterAsJumpable(GameObject obj) => jumpableObjects.Add(obj);
+    public void RegisterAsJumpable(GameObject obj)
+    {
+        Debug.Log($"Jumpable {obj.name}");
+        jumpableObjects.Add(obj);
+    }
+
     public void RegisterBitVault(GameObject obj) => bitVaultLocation = new TilePoint(obj);
     public void RegisterWalkableTile(GameObject obj) => UpdateSize(() => walkableTiles.Add(obj));
     public void RegisterBlockingObject(GameObject obj) => UpdateSize(() => blockedTiles.Add(obj));
