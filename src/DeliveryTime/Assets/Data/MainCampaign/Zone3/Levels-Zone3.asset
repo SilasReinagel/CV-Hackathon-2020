@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb28f5554541405a851d36bf065a598d, type: 3}
+  m_Name: Levels-Zone3
+  m_EditorClassIdentifier: 
+  value:
+  - {fileID: 11400000, guid: 25f9150f8c97af84eb85d97305145361, type: 2}
+  - {fileID: 11400000, guid: 331945352758f7d4b8fdd33f3afd41a5, type: 2}
+  - {fileID: 11400000, guid: 919dedcd73e83584e94c914e62a631f1, type: 2}
+  - {fileID: 11400000, guid: 173c3fbc35bbf9e43b261ae68ce2b774, type: 2}
+  - {fileID: 11400000, guid: 252b3b9b568c6ff4eaadb5d5159daa94, type: 2}
+  - {fileID: 11400000, guid: 5f87844d85c40174d809a0370beeb954, type: 2}
+  - {fileID: 11400000, guid: ca729c5197612db41b0a7aa1f42f1fe5, type: 2}
+  - {fileID: 11400000, guid: 908f10c28fcb99e44890f46feca28f46, type: 2}
+  - {fileID: 11400000, guid: 838ec6fa824774047b8342031f381e72, type: 2}
+  - {fileID: 11400000, guid: fa26c739ce5ab8c4aad587955fae911a, type: 2}
+  - {fileID: 11400000, guid: e49b8dbb6257b9e44b9ee3acc3537a25, type: 2}
+  - {fileID: 11400000, guid: 16513c949e499bf4ca198a265f570155, type: 2}
+  story:
+  - {fileID: 11400000, guid: 87074c048f569914cb66aafc5a039b19, type: 2}
+  - {fileID: 11400000, guid: 7424d5d1f3177e64c92055f995c68ec6, type: 2}
+  - {fileID: 11400000, guid: 850afe158e925ed40b334d1cc0be7b64, type: 2}
+  - {fileID: 11400000, guid: fde27e368907b0a4ba04df14dc227024, type: 2}
+  - {fileID: 11400000, guid: cc904efe89803174a81497c95a62037a, type: 2}
+  - {fileID: 11400000, guid: c3aad30af21619c4294098846e3e0bf2, type: 2}
+  - {fileID: 11400000, guid: 3b4a414d5dfd5fd4fa98a5b0d16d65af, type: 2}
+  - {fileID: 11400000, guid: 386689a5d4218004ba5021b3cab6c2ad, type: 2}
+  - {fileID: 11400000, guid: 9e14a5ae810acc242ad61bb47c889b80, type: 2}
+  - {fileID: 11400000, guid: bca7cdd6897d40a4c82cb1a4f278547c, type: 2}
+  - {fileID: 11400000, guid: 95e39f493705b02449329183bab4f4a7, type: 2}
+  - {fileID: 11400000, guid: b53a6ab567cdf53499df79fbf01ae01a, type: 2}
+  starsRequired:
+    UseConstant: 1
+    ConstantValue: 36
+    Variable: {fileID: 0}
+  minDateRequired:
+    _dateTimeOffset: 1/3/0001 12:00 AM
+  name: Cyber Titan
+  description: Cyber Titan is a large cyber security company who's top competitor
+    is SECR.\n\nCyber Titan has stolen all of SECR's security keys to ruin SECR's
+    reputation and sell those keys for profit.\n\nYou are going to hack Cyber Titan
+    and steal them back before that happens.
+  logo: {fileID: 21300000, guid: 008aefc958e81ee45bf0b4c75a310c95, type: 3}
+  logoTiled: {fileID: 21300000, guid: 9daeca8bd34d3eb48b50fe4a5eecb115, type: 3}
+  logoColor: {r: 1, g: 1, b: 1, a: 1}
+  backgroundColor: {r: 0.7843138, g: 0.27058825, b: 0.6509804, a: 0.39215687}
+  musicTheme: {fileID: 11400000, guid: 146345b3b7763cc4ebed45571a6c1970, type: 2}
+  saveStorage: {fileID: 11400000, guid: 1458f9b8798b4f147b62b7883c2ba217, type: 2}
+  tutorial: {fileID: 11400000, guid: 04c432f525c9e884e8a8b100589f3b0e, type: 2}
+  progression: 010000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000c0000000c0000000c000000

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65be5cee7d60fd444b556301dd65204d, type: 3}
+  m_Name: BZ2-Story10-IntroStory
+  m_EditorClassIdentifier: 
+  dialogueName: Discommunication
+  lines:
+  - type: 0
+    text: We have been hacked, someone is intercepting payments, protecting us is
+      your one JOB!
+    character: {fileID: 11400000, guid: 575e770282875024482729559efbfc3a, type: 2}
+  - type: 0
+    text: You better stop this hack immediately!
+    character: {fileID: 11400000, guid: 575e770282875024482729559efbfc3a, type: 2}
+  - type: 0
+    text: No worries, I'm on it.
+    character: {fileID: 11400000, guid: 63523354b3d3a73419a402108c3fffe7, type: 2}
+  - type: 2
+    text: 
+    character: {fileID: 11400000, guid: 575e770282875024482729559efbfc3a, type: 2}
+  - type: 0
+    text: '*Freya has left the call*'
+    character: {fileID: 11400000, guid: aba9d7dbacc565941bc9f6a9d3bcde22, type: 2}
+  - type: 0
+    text: Cyber Titan's clients need to be told about the security patch, otherwise
+      Cyber Titan can roll my patch back after I have deployed it.
+    character: {fileID: 11400000, guid: 63523354b3d3a73419a402108c3fffe7, type: 2}
+  - type: 0
+    text: I'll hack the communication server and prepare the message to send.
+    character: {fileID: 11400000, guid: 63523354b3d3a73419a402108c3fffe7, type: 2}
+  startingCharacters:
+  - {fileID: 11400000, guid: 63523354b3d3a73419a402108c3fffe7, type: 2}
+  - {fileID: 11400000, guid: 575e770282875024482729559efbfc3a, type: 2}

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65be5cee7d60fd444b556301dd65204d, type: 3}
+  m_Name: Z4-Story7-OutroStory
+  m_EditorClassIdentifier: 
+  dialogueName: Hacking Hackers
+  lines:
+  - type: 0
+    text: Hello this is Tech Support.I need you, terrorist, to download an update
+      for your computer from this site.
+    character: {fileID: 11400000, guid: 593dcd71c4b435547aedcf8d503dec17, type: 2}
+  - type: 0
+    text: Scamming methods, ICE agent, really?
+    character: {fileID: 11400000, guid: a8b27447bc68ef545b43e8ba84c9a202, type: 2}
+  - type: 0
+    text: "I\u2019m not from ICE, I said tech support."
+    character: {fileID: 11400000, guid: 593dcd71c4b435547aedcf8d503dec17, type: 2}
+  - type: 0
+    text: Oh yeah? What OS do I have?
+    character: {fileID: 11400000, guid: a8b27447bc68ef545b43e8ba84c9a202, type: 2}
+  - type: 0
+    text: OS?
+    character: {fileID: 11400000, guid: 593dcd71c4b435547aedcf8d503dec17, type: 2}
+  - type: 0
+    text: OS stands for operating system... How did you even get hired?
+    character: {fileID: 11400000, guid: a8b27447bc68ef545b43e8ba84c9a202, type: 2}
+  startingCharacters:
+  - {fileID: 11400000, guid: a8b27447bc68ef545b43e8ba84c9a202, type: 2}
+  - {fileID: 11400000, guid: 593dcd71c4b435547aedcf8d503dec17, type: 2}

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65be5cee7d60fd444b556301dd65204d, type: 3}
+  m_Name: Z5-Story5-IntroStory
+  m_EditorClassIdentifier: 
+  dialogueName: Search Engine
+  lines:
+  - type: 0
+    text: You are a genius! How in netspace did you predict he would hack those androids?
+    character: {fileID: 11400000, guid: a8b27447bc68ef545b43e8ba84c9a202, type: 2}
+  - type: 0
+    text: Simple. We are both using the same search engine.
+    character: {fileID: 11400000, guid: 79655eb27cff2a0458545c7f8b2d69b3, type: 2}
+  - type: 0
+    text: What?!
+    character: {fileID: 11400000, guid: a8b27447bc68ef545b43e8ba84c9a202, type: 2}
+  - type: 0
+    text: I came up with hacking the laser satellite by searching "Best way to kill
+      someone anywhere in the world".
+    character: {fileID: 11400000, guid: 79655eb27cff2a0458545c7f8b2d69b3, type: 2}
+  - type: 0
+    text: The second-to-top result was sending killer androids.
+    character: {fileID: 11400000, guid: 79655eb27cff2a0458545c7f8b2d69b3, type: 2}
+  - type: 0
+    text: Nevermind. I take back the "genius" compliment.
+    character: {fileID: 11400000, guid: a8b27447bc68ef545b43e8ba84c9a202, type: 2}
+  - type: 0
+    text: I am going to need you to hack that search engine. We can help him choose
+      his next plan.
+    character: {fileID: 11400000, guid: 79655eb27cff2a0458545c7f8b2d69b3, type: 2}
+  startingCharacters:
+  - {fileID: 11400000, guid: a8b27447bc68ef545b43e8ba84c9a202, type: 2}
+  - {fileID: 11400000, guid: 79655eb27cff2a0458545c7f8b2d69b3, type: 2}

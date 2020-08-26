@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd2e13a8a8451da40bafc7a9a2c33599, type: 3}
+  m_Name: Z5-Story6
+  m_EditorClassIdentifier: 
+  intro: {fileID: 11400000, guid: b7a79662d5be7ca4a846be9481119ee3, type: 2}
+  outro: {fileID: 11400000, guid: 827b36e9675725a40851b666a459f85b, type: 2}

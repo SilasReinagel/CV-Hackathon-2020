@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65be5cee7d60fd444b556301dd65204d, type: 3}
+  m_Name: BZ1-Story7-IntroStory
+  m_EditorClassIdentifier: 
+  dialogueName: Work Experience
+  lines:
+  - type: 0
+    text: They rejected my application, because I don't have enough work experience.
+    character: {fileID: 11400000, guid: 63523354b3d3a73419a402108c3fffe7, type: 2}
+  - type: 0
+    text: It's entry level, why do they expect you to already have 5 years of experinece!
+    character: {fileID: 11400000, guid: 63523354b3d3a73419a402108c3fffe7, type: 2}
+  - type: 0
+    text: 'Classic case of: You got to have to experience to get experience.'
+    character: {fileID: 11400000, guid: e46b5f32cd2cff14ea7b13b853bc0e45, type: 2}
+  - type: 0
+    text: You could hack some large company and give yourself years of experience,
+      you look like you could have been in the industry for decades.
+    character: {fileID: 11400000, guid: e46b5f32cd2cff14ea7b13b853bc0e45, type: 2}
+  - type: 0
+    text: Alright, I'll hack Global Sec and give myself the qualifications for a real
+      position.
+    character: {fileID: 11400000, guid: 63523354b3d3a73419a402108c3fffe7, type: 2}
+  startingCharacters:
+  - {fileID: 11400000, guid: 63523354b3d3a73419a402108c3fffe7, type: 2}
+  - {fileID: 11400000, guid: e46b5f32cd2cff14ea7b13b853bc0e45, type: 2}

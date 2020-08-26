@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 090681d0cad653b4ba4bd3c63f4beb4d, type: 3}
+  m_Name: Z4-Semaphores
+  m_EditorClassIdentifier: 
+  guid: 25c4c354-b768-40ee-8e63-7c4f3cf9c349
+  levelName: Semaphores
+  prefab: {fileID: 9152380842422775144, guid: 60e971efa8544544387d2a755fdf3f50, type: 3}
+  isTutorial: 0

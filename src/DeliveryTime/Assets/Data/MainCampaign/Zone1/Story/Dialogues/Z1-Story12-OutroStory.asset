@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65be5cee7d60fd444b556301dd65204d, type: 3}
+  m_Name: Z1-Story12-OutroStory
+  m_EditorClassIdentifier: 
+  dialogueName: Untraceable
+  lines:
+  - type: 0
+    text: "The \u201Cuntraceable-ness\u201D of Nova's network may have been an extreme
+      exaggeration."
+    character: {fileID: 11400000, guid: a8b27447bc68ef545b43e8ba84c9a202, type: 2}
+  - type: 0
+    text: "Hopefully Nova's network is as \u201Cimpenetrable\u201D as it was \u201Cuntraceable\u201D."
+    character: {fileID: 11400000, guid: 287b237bb0998ae499addce6c6edc1ba, type: 2}
+  startingCharacters:
+  - {fileID: 11400000, guid: a8b27447bc68ef545b43e8ba84c9a202, type: 2}
+  - {fileID: 11400000, guid: 287b237bb0998ae499addce6c6edc1ba, type: 2}

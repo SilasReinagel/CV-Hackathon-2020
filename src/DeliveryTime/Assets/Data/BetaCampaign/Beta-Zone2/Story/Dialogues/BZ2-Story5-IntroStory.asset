@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65be5cee7d60fd444b556301dd65204d, type: 3}
+  m_Name: BZ2-Story5-IntroStory
+  m_EditorClassIdentifier: 
+  dialogueName: Collection Corps
+  lines:
+  - type: 0
+    text: Heya Freya, one of our accountants, Jack appears to be embezzling large
+      amounts of creds.
+    character: {fileID: 11400000, guid: 63523354b3d3a73419a402108c3fffe7, type: 2}
+  - type: 0
+    text: The Board will be informed at once and we will get them removed, but for
+      now keep this on the down low.
+    character: {fileID: 11400000, guid: 575e770282875024482729559efbfc3a, type: 2}
+  - type: 0
+    text: Is the Board part of EVERY decision?
+    character: {fileID: 11400000, guid: 63523354b3d3a73419a402108c3fffe7, type: 2}
+  - type: 0
+    text: Yes and you better get used to it.
+    character: {fileID: 11400000, guid: 575e770282875024482729559efbfc3a, type: 2}
+  - type: 2
+    text: 
+    character: {fileID: 11400000, guid: 575e770282875024482729559efbfc3a, type: 2}
+  - type: 0
+    text: '*Freya has left the call*'
+    character: {fileID: 11400000, guid: aba9d7dbacc565941bc9f6a9d3bcde22, type: 2}
+  - type: 0
+    text: 'In the meantime I''m going to hack one of these data collection corps and
+      find out what data we are selling them.
+
+'
+    character: {fileID: 11400000, guid: 63523354b3d3a73419a402108c3fffe7, type: 2}
+  startingCharacters:
+  - {fileID: 11400000, guid: 63523354b3d3a73419a402108c3fffe7, type: 2}
+  - {fileID: 11400000, guid: 575e770282875024482729559efbfc3a, type: 2}

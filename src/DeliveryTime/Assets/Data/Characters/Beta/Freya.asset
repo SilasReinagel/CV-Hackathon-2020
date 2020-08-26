@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4ae3ed74468b8545b71063f3c463902, type: 3}
+  m_Name: Freya
+  m_EditorClassIdentifier: 
+  name: Freya
+  bust: {fileID: 21300000, guid: 34877e40d383d0142bff88f41b5447cb, type: 3}
+  alternateArtBust: {fileID: 0}
+  useAlternateArt:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  useStaticVisualEffect: 0

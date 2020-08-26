@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 090681d0cad653b4ba4bd3c63f4beb4d, type: 3}
+  m_Name: BZ2-LongJump
+  m_EditorClassIdentifier: 
+  guid: bdd1a474-42e2-4a27-9997-c72304414a43
+  levelName: Long Jump
+  prefab: {fileID: 7914148364327767238, guid: 571c82a51e49ec54ba73a3648832fc77, type: 3}
+  isTutorial: 0

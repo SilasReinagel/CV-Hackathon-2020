@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65be5cee7d60fd444b556301dd65204d, type: 3}
+  m_Name: BZ2-Story12-OutroStory
+  m_EditorClassIdentifier: 
+  dialogueName: Freya's Rage
+  lines:
+  - type: 0
+    text: I hope you know what you have done! You are gonna be stuck on the run, you'll
+      have to sleep with one eye open!
+    character: {fileID: 11400000, guid: 575e770282875024482729559efbfc3a, type: 2}
+  - type: 0
+    text: You ruined our extra cred income and stole from us! You are going to regret
+      this Slade!
+    character: {fileID: 11400000, guid: 575e770282875024482729559efbfc3a, type: 2}
+  - type: 0
+    text: You'll never find me. You didn't even know my qualifications were ALL fake!
+    character: {fileID: 11400000, guid: 63523354b3d3a73419a402108c3fffe7, type: 2}
+  - type: 2
+    text: 
+    character: {fileID: 11400000, guid: 575e770282875024482729559efbfc3a, type: 2}
+  - type: 2
+    text: 
+    character: {fileID: 11400000, guid: 63523354b3d3a73419a402108c3fffe7, type: 2}
+  - type: 0
+    text: '*Call has ended*'
+    character: {fileID: 11400000, guid: aba9d7dbacc565941bc9f6a9d3bcde22, type: 2}
+  - type: 0
+    text: '*Months Later*'
+    character: {fileID: 11400000, guid: 1c91b221c21d143489c307a7318c33f8, type: 2}
+  - type: 1
+    text: 
+    character: {fileID: 11400000, guid: 63523354b3d3a73419a402108c3fffe7, type: 2}
+  - type: 1
+    text: 
+    character: {fileID: 11400000, guid: e46b5f32cd2cff14ea7b13b853bc0e45, type: 2}
+  - type: 0
+    text: Welp, turns out Global Sec is downsizing and they may have noticed my paycheck,
+      so I got laid off.
+    character: {fileID: 11400000, guid: e46b5f32cd2cff14ea7b13b853bc0e45, type: 2}
+  - type: 0
+    text: Your in luck, I just managed to get hired as a CTO for a new security startup
+      called SECR.
+    character: {fileID: 11400000, guid: 63523354b3d3a73419a402108c3fffe7, type: 2}
+  - type: 0
+    text: How would you like a job, you'll even get to use my fancy hacking tool.
+    character: {fileID: 11400000, guid: 63523354b3d3a73419a402108c3fffe7, type: 2}
+  - type: 0
+    text: Heck yeah, I'll work for you, I take it Cyber Titan wasn't everything you
+      imagined?
+    character: {fileID: 11400000, guid: e46b5f32cd2cff14ea7b13b853bc0e45, type: 2}
+  - type: 0
+    text: Screw Cyber Titan, this industry sucks.
+    character: {fileID: 11400000, guid: 63523354b3d3a73419a402108c3fffe7, type: 2}
+  - type: 0
+    text: Corps suck, thankfully you're my new boss, so you'll be relaxed right?
+    character: {fileID: 11400000, guid: e46b5f32cd2cff14ea7b13b853bc0e45, type: 2}
+  - type: 0
+    text: I don't even care if you do any work.
+    character: {fileID: 11400000, guid: 63523354b3d3a73419a402108c3fffe7, type: 2}
+  - type: 0
+    text: Sounds like my kind of job.
+    character: {fileID: 11400000, guid: e46b5f32cd2cff14ea7b13b853bc0e45, type: 2}
+  startingCharacters:
+  - {fileID: 11400000, guid: 63523354b3d3a73419a402108c3fffe7, type: 2}
+  - {fileID: 11400000, guid: 575e770282875024482729559efbfc3a, type: 2}

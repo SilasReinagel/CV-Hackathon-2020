@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 090681d0cad653b4ba4bd3c63f4beb4d, type: 3}
+  m_Name: BZ2-TripleAction
+  m_EditorClassIdentifier: 
+  guid: 1a00d29e-4200-4c24-8ffb-76bdb0113ce7
+  levelName: Triple Action
+  prefab: {fileID: 7914148364327767238, guid: 59686ab8de91d134b811c66ce018937c, type: 3}
+  isTutorial: 0

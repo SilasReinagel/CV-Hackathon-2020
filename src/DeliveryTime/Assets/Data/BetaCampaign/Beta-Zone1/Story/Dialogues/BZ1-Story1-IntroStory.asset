@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65be5cee7d60fd444b556301dd65204d, type: 3}
+  m_Name: BZ1-Story1-IntroStory
+  m_EditorClassIdentifier: 
+  dialogueName: Ruby Reunion
+  lines:
+  - type: 0
+    text: Sup Slade, I haven't seen you since highschool, I started this semester
+      at the University of Technology.
+    character: {fileID: 11400000, guid: e46b5f32cd2cff14ea7b13b853bc0e45, type: 2}
+  - type: 0
+    text: I'm halfway through getting my Cyber Security degree.
+    character: {fileID: 11400000, guid: 63523354b3d3a73419a402108c3fffe7, type: 2}
+  - type: 0
+    text: I'm also going for a hacker degree, so have you hacked the school's computers
+      yet?
+    character: {fileID: 11400000, guid: e46b5f32cd2cff14ea7b13b853bc0e45, type: 2}
+  - type: 0
+    text: I may have been spending most of my time building a new hacking tool.
+    character: {fileID: 11400000, guid: 63523354b3d3a73419a402108c3fffe7, type: 2}
+  - type: 0
+    text: My plan is once I get my degree and with this tool, I'll get my dream job
+      at Cyber Titan, the greatest cyber security corp there is.
+    character: {fileID: 11400000, guid: 63523354b3d3a73419a402108c3fffe7, type: 2}
+  - type: 0
+    text: Wanna take a look at how it works? Here I'll show you.
+    character: {fileID: 11400000, guid: 63523354b3d3a73419a402108c3fffe7, type: 2}
+  startingCharacters:
+  - {fileID: 11400000, guid: 63523354b3d3a73419a402108c3fffe7, type: 2}
+  - {fileID: 11400000, guid: e46b5f32cd2cff14ea7b13b853bc0e45, type: 2}

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65be5cee7d60fd444b556301dd65204d, type: 3}
+  m_Name: Z5-Story10-IntroStory
+  m_EditorClassIdentifier: 
+  dialogueName: Shipping Delay
+  lines:
+  - type: 0
+    text: Slade has gotten more hands-on. He made a remote detenation bomb himself
+      and is having it shipped here.
+    character: {fileID: 11400000, guid: 79655eb27cff2a0458545c7f8b2d69b3, type: 2}
+  - type: 0
+    text: I'll hack the shipping company and stop it. It should be a blast!
+    character: {fileID: 11400000, guid: a8b27447bc68ef545b43e8ba84c9a202, type: 2}
+  - type: 0
+    text: 'If you tip him off, our plan might not work. '
+    character: {fileID: 11400000, guid: 79655eb27cff2a0458545c7f8b2d69b3, type: 2}
+  - type: 0
+    text: Instead hack the shipping company and tell Slade about delays. Then when
+      the bomb arrives go to it and manually hack to disable it.
+    character: {fileID: 11400000, guid: 79655eb27cff2a0458545c7f8b2d69b3, type: 2}
+  - type: 0
+    text: Sounds insanely risky. What if he has a tracker in the bomb?
+    character: {fileID: 11400000, guid: a8b27447bc68ef545b43e8ba84c9a202, type: 2}
+  - type: 0
+    text: He didn't want us to find out about the bomb, so he made the bomb send no
+      signals out. If only he had known about my fun virus.
+    character: {fileID: 11400000, guid: 79655eb27cff2a0458545c7f8b2d69b3, type: 2}
+  startingCharacters:
+  - {fileID: 11400000, guid: a8b27447bc68ef545b43e8ba84c9a202, type: 2}
+  - {fileID: 11400000, guid: 79655eb27cff2a0458545c7f8b2d69b3, type: 2}

@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2049592222344504462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4137602666187409437}
+  - component: {fileID: 7188994728082240383}
+  m_Layer: 0
+  m_Name: DifficultyPlayerSurvey
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4137602666187409437
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049592222344504462}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7188994728082240383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049592222344504462}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44b36ee5ff89ccb49854fd52d0006f61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  question:
+    UseConstant: 0
+    ConstantValue: 
+    Variable: {fileID: 11400000, guid: 9bf7f11ce69b78544b0ae748883ae427, type: 2}
+  answers:
+  - UseConstant: 0
+    ConstantValue: 
+    Variable: {fileID: 11400000, guid: d0808629da7bba04c9c6be32c48ed239, type: 2}
+  - UseConstant: 0
+    ConstantValue: 
+    Variable: {fileID: 11400000, guid: f09801e369b682d499cd2b9cdc206143, type: 2}
+  - UseConstant: 0
+    ConstantValue: 
+    Variable: {fileID: 11400000, guid: 862954d4ffdf0a145857e9909dedf08c, type: 2}
+  playerSurvey: {fileID: 11400000, guid: 07db3f80e728ac647ab0c48662db3f84, type: 2}
+  storage: {fileID: 11400000, guid: 1458f9b8798b4f147b62b7883c2ba217, type: 2}
+  level: {fileID: 11400000, guid: f81c10460cdb9464397ed5864a15114b, type: 2}
+  shouldSurvey:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 15b10826e309e824fae8f7a22a780eba, type: 2}

@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd2e13a8a8451da40bafc7a9a2c33599, type: 3}
+  m_Name: Z4-Story8
+  m_EditorClassIdentifier: 
+  intro: {fileID: 11400000, guid: e537abd49ff64b5468e444c1e8d49a9a, type: 2}
+  outro: {fileID: 11400000, guid: 5a3a6a70108bfee4a9b89027430eb00d, type: 2}

@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65be5cee7d60fd444b556301dd65204d, type: 3}
+  m_Name: Z1-Story1-IntroStory
+  m_EditorClassIdentifier: 
+  dialogueName: Welcome to SECR
+  lines:
+  - type: 0
+    text: 'You must be the new hire: Morgan.'
+    character: {fileID: 11400000, guid: 287b237bb0998ae499addce6c6edc1ba, type: 2}
+  - type: 0
+    text: I'm so glad to have a person with so many accomplishments join us.
+    character: {fileID: 11400000, guid: 287b237bb0998ae499addce6c6edc1ba, type: 2}
+  - type: 0
+    text: '...But I have no experience.'
+    character: {fileID: 11400000, guid: a8b27447bc68ef545b43e8ba84c9a202, type: 2}
+  - type: 0
+    text: What I meant was a person with such POTENTIAL, talent.
+    character: {fileID: 11400000, guid: 287b237bb0998ae499addce6c6edc1ba, type: 2}
+  - type: 0
+    text: "I don\u2019t want you to think of me as your boss here at SECR."
+    character: {fileID: 11400000, guid: 287b237bb0998ae499addce6c6edc1ba, type: 2}
+  - type: 0
+    text: Think of me as your friend... who also happens to control your raises.
+    character: {fileID: 11400000, guid: 287b237bb0998ae499addce6c6edc1ba, type: 2}
+  - type: 0
+    text: "You don\u2019t need to worry about a thing."
+    character: {fileID: 11400000, guid: 287b237bb0998ae499addce6c6edc1ba, type: 2}
+  - type: 0
+    text: Avon is gonna hook you right up with our synergetic tool.
+    character: {fileID: 11400000, guid: 287b237bb0998ae499addce6c6edc1ba, type: 2}
+  - type: 0
+    text: Synergetic is a good buzzword, right? I'm not really sure what it means.
+    character: {fileID: 11400000, guid: 287b237bb0998ae499addce6c6edc1ba, type: 2}
+  - type: 0
+    text: Anyway, gotta go do important work or something.
+    character: {fileID: 11400000, guid: 287b237bb0998ae499addce6c6edc1ba, type: 2}
+  - type: 2
+    text: 
+    character: {fileID: 11400000, guid: 287b237bb0998ae499addce6c6edc1ba, type: 2}
+  - type: 0
+    text: '*SECR CTO has left the call*'
+    character: {fileID: 11400000, guid: aba9d7dbacc565941bc9f6a9d3bcde22, type: 2}
+  - type: 1
+    text: 
+    character: {fileID: 11400000, guid: 3cbeb74c11fcdc54488993b561de2ee1, type: 2}
+  - type: 0
+    text: '*Avon has joined the call*'
+    character: {fileID: 11400000, guid: aba9d7dbacc565941bc9f6a9d3bcde22, type: 2}
+  - type: 0
+    text: Hello newbie, I'm going to observe you pen test servers here.
+    character: {fileID: 11400000, guid: 3cbeb74c11fcdc54488993b561de2ee1, type: 2}
+  - type: 0
+    text: But I only brought a pencil.
+    character: {fileID: 11400000, guid: a8b27447bc68ef545b43e8ba84c9a202, type: 2}
+  - type: 0
+    text: No, pen test is short for penetration testing, which means hacking but for
+      testing purposes.
+    character: {fileID: 11400000, guid: 3cbeb74c11fcdc54488993b561de2ee1, type: 2}
+  - type: 0
+    text: I hope you already reviewed the zone tutorial from your cyberdeck before
+      this meeting. Here is a training server for you to penetrate.
+    character: {fileID: 11400000, guid: 3cbeb74c11fcdc54488993b561de2ee1, type: 2}
+  startingCharacters:
+  - {fileID: 11400000, guid: a8b27447bc68ef545b43e8ba84c9a202, type: 2}
+  - {fileID: 11400000, guid: 287b237bb0998ae499addce6c6edc1ba, type: 2}

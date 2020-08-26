@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65be5cee7d60fd444b556301dd65204d, type: 3}
+  m_Name: Z3-Story12-OutroStory
+  m_EditorClassIdentifier: 
+  dialogueName: Deleted!
+  lines:
+  - type: 0
+    text: Hey! These keys are not our keys!
+    character: {fileID: 11400000, guid: a8b27447bc68ef545b43e8ba84c9a202, type: 2}
+  - type: 0
+    text: Deleted! Yep, those were their security keys.
+    character: {fileID: 11400000, guid: 2fb337bf7fc8ebd4895067e36415fc42, type: 2}
+  - type: 0
+    text: You just helped me exact my revenge on the company that slowed down my plan
+      all those years ago.
+    character: {fileID: 11400000, guid: 2fb337bf7fc8ebd4895067e36415fc42, type: 2}
+  - type: 0
+    text: And now you're gonna tell me your entire plan in a monologue like a bad
+      movie villain?
+    character: {fileID: 11400000, guid: a8b27447bc68ef545b43e8ba84c9a202, type: 2}
+  - type: 0
+    text: Of course. It would be a shame if no one knew.
+    character: {fileID: 11400000, guid: 2fb337bf7fc8ebd4895067e36415fc42, type: 2}
+  - type: 0
+    text: Morgan, you turned off monitoring and poked a hole in the firewall for me
+      to use to send out our security keys.
+    character: {fileID: 11400000, guid: 2fb337bf7fc8ebd4895067e36415fc42, type: 2}
+  - type: 0
+    text: Unfortunately, Nova slowed down my plan by encrypting our mainframe.
+    character: {fileID: 11400000, guid: 2fb337bf7fc8ebd4895067e36415fc42, type: 2}
+  - type: 0
+    text: But once you so kindly removed that obstacle I was able to auction off our
+      keys while you helped me with my revenge.
+    character: {fileID: 11400000, guid: 2fb337bf7fc8ebd4895067e36415fc42, type: 2}
+  - type: 0
+    text: "Why didn\u2019t you just hack the servers yourself?"
+    character: {fileID: 11400000, guid: a8b27447bc68ef545b43e8ba84c9a202, type: 2}
+  - type: 0
+    text: Because now I have proof of you hacking SECR monitoring, the SECR firewall,
+      and the entire Cyber Titan System.
+    character: {fileID: 11400000, guid: 2fb337bf7fc8ebd4895067e36415fc42, type: 2}
+  - type: 0
+    text: International Cyber Enforcement will have no doubt that you are guilty of
+      these crimes.
+    character: {fileID: 11400000, guid: 2fb337bf7fc8ebd4895067e36415fc42, type: 2}
+  - type: 0
+    text: ICE Agents will be swarming you very soon.
+    character: {fileID: 11400000, guid: 2fb337bf7fc8ebd4895067e36415fc42, type: 2}
+  - type: 0
+    text: Hopefully, they are as slow as ice. Can't I just hack my way out of this
+      mess?
+    character: {fileID: 11400000, guid: a8b27447bc68ef545b43e8ba84c9a202, type: 2}
+  - type: 0
+    text: Remember that update I gave you? It allows me the ability to turn off your
+      cyberdeck.
+    character: {fileID: 11400000, guid: 2fb337bf7fc8ebd4895067e36415fc42, type: 2}
+  - type: 0
+    text: Also, do you like how I made sure my computer was clean when you hacked
+      it?
+    character: {fileID: 11400000, guid: 2fb337bf7fc8ebd4895067e36415fc42, type: 2}
+  - type: 0
+    text: "I didn\u2019t hack your computer."
+    character: {fileID: 11400000, guid: a8b27447bc68ef545b43e8ba84c9a202, type: 2}
+  - type: 0
+    text: No point in lying... I know I was hacked by you, Morgan.
+    character: {fileID: 11400000, guid: 2fb337bf7fc8ebd4895067e36415fc42, type: 2}
+  - type: 0
+    text: Well... time for early retirement. See you on the news when you get arrested.
+    character: {fileID: 11400000, guid: 2fb337bf7fc8ebd4895067e36415fc42, type: 2}
+  startingCharacters:
+  - {fileID: 11400000, guid: a8b27447bc68ef545b43e8ba84c9a202, type: 2}
+  - {fileID: 11400000, guid: 2fb337bf7fc8ebd4895067e36415fc42, type: 2}

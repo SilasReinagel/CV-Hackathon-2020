@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16cb0b47eef849f080d35ed8c36d2c39, type: 3}
+  m_Name: AmbitiousBeginningsTheme
+  m_EditorClassIdentifier: 
+  defaultColor:
+    UseConstant: 1
+    ConstantValue: {r: 1, g: 0, b: 1, a: 1}
+    Variable: {fileID: 0}
+  borderTint:
+    UseConstant: 1
+    ConstantValue: {r: 0.5803922, g: 0.1254902, b: 1, a: 0.7529412}
+    Variable: {fileID: 0}
+  headerTextColor:
+    UseConstant: 1
+    ConstantValue: {r: 1, g: 1, b: 1, a: 1}
+    Variable: {fileID: 0}
+  dialogueButtonTextTint:
+    UseConstant: 1
+    ConstantValue: {r: 1, g: 1, b: 1, a: 0.7529412}
+    Variable: {fileID: 0}
+  menuButtonTextTint:
+    UseConstant: 1
+    ConstantValue: {r: 0.22745098, g: 0.9643038, b: 1, a: 1}
+    Variable: {fileID: 0}
+  menuButtonTextGradient: {fileID: 11400000, guid: fbb58eff46fdc0948980adf2446486a3,
+    type: 2}
+  panelTint:
+    UseConstant: 1
+    ConstantValue: {r: 0.5803922, g: 0.1254902, b: 1, a: 0.39215687}
+    Variable: {fileID: 0}
+  settingsTextTint:
+    UseConstant: 1
+    ConstantValue: {r: 0.98823535, g: 0.6117647, b: 0, a: 1}
+    Variable: {fileID: 0}
+  settingsTextGradient: {fileID: 11400000, guid: 5b6d1d9b0ebba0c46b1a1b510a8e5cbf,
+    type: 2}
+  iconButtonTint:
+    UseConstant: 1
+    ConstantValue: {r: 0.42510876, g: 0, b: 0.8207547, a: 0.7529412}
+    Variable: {fileID: 0}
+  iconButtonHoverTint:
+    UseConstant: 1
+    ConstantValue: {r: 0.8018868, g: 0.49685538, b: 0, a: 0.7529412}
+    Variable: {fileID: 0}
+  iconButtonPressedTint:
+    UseConstant: 1
+    ConstantValue: {r: 0.98823535, g: 0.6117647, b: 0, a: 1}
+    Variable: {fileID: 0}

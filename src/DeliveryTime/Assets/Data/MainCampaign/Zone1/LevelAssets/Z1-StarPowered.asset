@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 090681d0cad653b4ba4bd3c63f4beb4d, type: 3}
+  m_Name: Z1-StarPowered
+  m_EditorClassIdentifier: 
+  guid: 95af3db1-0f7a-4c34-a94e-c18321abc906
+  levelName: Data Powered
+  prefab: {fileID: 7402990718558451814, guid: ce7772e0a8cc4c34fb4f5a837bc98be6, type: 3}
+  isTutorial: 0

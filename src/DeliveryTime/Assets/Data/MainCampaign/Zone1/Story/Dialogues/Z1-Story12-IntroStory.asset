@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65be5cee7d60fd444b556301dd65204d, type: 3}
+  m_Name: Z1-Story12-IntroStory
+  m_EditorClassIdentifier: 
+  dialogueName: Untraceable
+  lines:
+  - type: 0
+    text: '...Minor inconvenience. Our mainframe has been encrypted.'
+    character: {fileID: 11400000, guid: 287b237bb0998ae499addce6c6edc1ba, type: 2}
+  - type: 0
+    text: An encrypted system makes everything unreadable and unusable, unless we
+      can decrypt it with a key.
+    character: {fileID: 11400000, guid: 287b237bb0998ae499addce6c6edc1ba, type: 2}
+  - type: 0
+    text: "So if we don\u2019t fix it we might all be out of a job."
+    character: {fileID: 11400000, guid: 287b237bb0998ae499addce6c6edc1ba, type: 2}
+  - type: 0
+    text: "That doesn\u2019t sound minor."
+    character: {fileID: 11400000, guid: a8b27447bc68ef545b43e8ba84c9a202, type: 2}
+  - type: 0
+    text: Who could have done this?
+    character: {fileID: 11400000, guid: a8b27447bc68ef545b43e8ba84c9a202, type: 2}
+  - type: 1
+    text: 
+    character: {fileID: 11400000, guid: 27d6a660c0992a24692a11746c9830e3, type: 2}
+  - type: 0
+    text: '*Nova has joined the call*'
+    character: {fileID: 11400000, guid: aba9d7dbacc565941bc9f6a9d3bcde22, type: 2}
+  - type: 0
+    text: "I\u2019m Nova the cyber vigilante, I fight those who abuse their position."
+    character: {fileID: 11400000, guid: 27d6a660c0992a24692a11746c9830e3, type: 2}
+  - type: 0
+    text: I have encrypted your mainframe and hidden the encryption key in my network,
+      which is completely untraceable.
+    character: {fileID: 11400000, guid: 27d6a660c0992a24692a11746c9830e3, type: 2}
+  - type: 0
+    text: You will face the consequences of your actions, SECR CTO.
+    character: {fileID: 11400000, guid: 27d6a660c0992a24692a11746c9830e3, type: 2}
+  - type: 2
+    text: 
+    character: {fileID: 11400000, guid: 27d6a660c0992a24692a11746c9830e3, type: 2}
+  - type: 0
+    text: '*Nova has left the call*'
+    character: {fileID: 11400000, guid: aba9d7dbacc565941bc9f6a9d3bcde22, type: 2}
+  - type: 0
+    text: Morgan, can you trace that cyber vigilante's network?
+    character: {fileID: 11400000, guid: 287b237bb0998ae499addce6c6edc1ba, type: 2}
+  - type: 0
+    text: I'll give it a shot.
+    character: {fileID: 11400000, guid: a8b27447bc68ef545b43e8ba84c9a202, type: 2}
+  startingCharacters:
+  - {fileID: 11400000, guid: a8b27447bc68ef545b43e8ba84c9a202, type: 2}
+  - {fileID: 11400000, guid: 287b237bb0998ae499addce6c6edc1ba, type: 2}

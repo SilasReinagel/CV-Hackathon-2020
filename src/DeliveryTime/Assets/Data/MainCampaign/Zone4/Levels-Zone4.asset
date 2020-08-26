@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb28f5554541405a851d36bf065a598d, type: 3}
+  m_Name: Levels-Zone4
+  m_EditorClassIdentifier: 
+  value:
+  - {fileID: 11400000, guid: d9963f63a00cae44aaac082fbcf086ba, type: 2}
+  - {fileID: 11400000, guid: 53085149e99468942b73d9d9e729e6cf, type: 2}
+  - {fileID: 11400000, guid: e9d8c71883e628f4e890503dd53587e6, type: 2}
+  - {fileID: 11400000, guid: 47a8c57cea598484e9055f333b6aa003, type: 2}
+  - {fileID: 11400000, guid: 242d5389ad800f64997f266e601caef5, type: 2}
+  - {fileID: 11400000, guid: 744c1c6173e143c468ab3fc939669b8f, type: 2}
+  - {fileID: 11400000, guid: d827ec61ec3343f48abbbaf51a4195c5, type: 2}
+  - {fileID: 11400000, guid: e34624d9cefe65e4ca6d11a63444838b, type: 2}
+  - {fileID: 11400000, guid: 41fbb9f6248427e47899b8eb26e34b45, type: 2}
+  - {fileID: 11400000, guid: 373107761e04d094d9945a65ef631ad7, type: 2}
+  - {fileID: 11400000, guid: ca9574eccf083254ea5cc19673bc5286, type: 2}
+  - {fileID: 11400000, guid: bb6e65b3a2d217541be7d72baff5bb21, type: 2}
+  story:
+  - {fileID: 11400000, guid: 186c27240984bcc42a28bb213b89777d, type: 2}
+  - {fileID: 11400000, guid: 4e4c5477dd196f14184a1f8333d0f536, type: 2}
+  - {fileID: 11400000, guid: 3aa688825f3877a4e944949b0584b0b7, type: 2}
+  - {fileID: 11400000, guid: fb03d4f34eb8de24dbe52684746692ec, type: 2}
+  - {fileID: 11400000, guid: 7873ce34ff323e945957fd6504748567, type: 2}
+  - {fileID: 11400000, guid: 406f8b7fdc5000e499f64e7d5838d093, type: 2}
+  - {fileID: 11400000, guid: f63b17f0603208c41bb90b24f23755d2, type: 2}
+  - {fileID: 11400000, guid: c10a0198913356d48aec36f3c03757b0, type: 2}
+  - {fileID: 11400000, guid: e8fc340ba448969498fa4f0b0314e621, type: 2}
+  - {fileID: 11400000, guid: 3abc86ccff983704bb277c19f19cc14c, type: 2}
+  - {fileID: 11400000, guid: c24f6d86eb4294649997d273072a7a08, type: 2}
+  - {fileID: 11400000, guid: 392976bb781351c479ed140df700fb0d, type: 2}
+  starsRequired:
+    UseConstant: 1
+    ConstantValue: 56
+    Variable: {fileID: 0}
+  minDateRequired:
+    _dateTimeOffset: 1/3/0001 12:00 AM
+  name: ICE
+  description: International Cyber Enforcement catches cyber terrorists accross the
+    world.\n\nSlade has betrayed you, by setting you up and reporting you to ICE.\n\nNow
+    you need to act fast to prevent yourself from getting captured or killed by ICE.
+  logo: {fileID: 21300000, guid: 2bf779c1ea480534ca4c539539a0e70e, type: 3}
+  logoTiled: {fileID: 21300000, guid: 044ace99dc20b814ea9f175146b0fc67, type: 3}
+  logoColor: {r: 1, g: 1, b: 1, a: 1}
+  backgroundColor: {r: 0.33641866, g: 0.8490566, b: 0.5950059, a: 0.39215687}
+  musicTheme: {fileID: 11400000, guid: 7923e67853597e6468c41859ae1b1384, type: 2}
+  saveStorage: {fileID: 11400000, guid: 1458f9b8798b4f147b62b7883c2ba217, type: 2}
+  tutorial: {fileID: 11400000, guid: e52581f7f337d724f8af374a53bd1d5f, type: 2}
+  progression: 010000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000c0000000c0000000c000000

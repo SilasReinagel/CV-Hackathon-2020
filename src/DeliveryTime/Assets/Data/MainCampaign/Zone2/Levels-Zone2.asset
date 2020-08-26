@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb28f5554541405a851d36bf065a598d, type: 3}
+  m_Name: Levels-Zone2
+  m_EditorClassIdentifier: 
+  value:
+  - {fileID: 11400000, guid: 86a9a535bf99a89459943840940e6e11, type: 2}
+  - {fileID: 11400000, guid: 4cb869e6e4c06ef4b89992c603e7059d, type: 2}
+  - {fileID: 11400000, guid: 7d470bb62c6962243a5a6a5f8cfb359c, type: 2}
+  - {fileID: 11400000, guid: f2a6a1b6e11d7f84cbaa3b5c5bbcd023, type: 2}
+  - {fileID: 11400000, guid: ac82d1714cc3d0e4589e9f72bdb05df9, type: 2}
+  - {fileID: 11400000, guid: fa10783a70018c445ac38a3cbb9f20f1, type: 2}
+  - {fileID: 11400000, guid: bff689b2749693442935148acaf32c07, type: 2}
+  - {fileID: 11400000, guid: 5305c1966c9b9ac4f806c1518da9a733, type: 2}
+  - {fileID: 11400000, guid: 75e8e3bb634c48b43bc91aa85617ced8, type: 2}
+  - {fileID: 11400000, guid: 811cc694063d5fd42b16db3fc8e9fd69, type: 2}
+  - {fileID: 11400000, guid: 30c7706c3f87e9f429c2086e6e02ff68, type: 2}
+  - {fileID: 11400000, guid: 4cb9218cf210d1648903a1f4760d0b62, type: 2}
+  story:
+  - {fileID: 11400000, guid: 0c48b5e9e1616d54b9e2b16d6144934c, type: 2}
+  - {fileID: 11400000, guid: 8bc78272a07bbd24f9d5a07320ff2579, type: 2}
+  - {fileID: 11400000, guid: 9e6212eb586a4d3478c11a70cacea980, type: 2}
+  - {fileID: 11400000, guid: 13c18234db6d2294a947d2161ec9693d, type: 2}
+  - {fileID: 11400000, guid: 6ee2adf2cff370f4ba368d81dda76d3c, type: 2}
+  - {fileID: 11400000, guid: 96779a9414bd8b54c921f6cc135827ca, type: 2}
+  - {fileID: 11400000, guid: 804cc6be16b539c4c8f43c8258903860, type: 2}
+  - {fileID: 11400000, guid: e2811f2bf5f9a2941a91fbd67fa66508, type: 2}
+  - {fileID: 11400000, guid: 5ce9f11fc653b294086f8c3d736c4a0b, type: 2}
+  - {fileID: 11400000, guid: e4df1e539fc525f4ca1d5f3ee6fcbc4d, type: 2}
+  - {fileID: 11400000, guid: 848df703e15318e4ea578ed1d04f75df, type: 2}
+  - {fileID: 11400000, guid: 7c67b98c28edde7458b4b061a17ba190, type: 2}
+  starsRequired:
+    UseConstant: 1
+    ConstantValue: 16
+    Variable: {fileID: 0}
+  minDateRequired:
+    _dateTimeOffset: 1/3/0001 12:00 AM
+  name: Nova's Network
+  description: Nova the new cyber vigilante has built this network dedicated to guarding
+    her secrets.\n\nNova's first act of justice was to encrypt SECR's mainframe.\n\nYou
+    are going to hack her network and find the encryption key before SECR is ruined.
+  logo: {fileID: 21300000, guid: 05062b5154215d04f9d5e2a64acb7a00, type: 3}
+  logoTiled: {fileID: 21300000, guid: 4093fdefe1630bc4c9952ce8481d0ebd, type: 3}
+  logoColor: {r: 1, g: 1, b: 1, a: 1}
+  backgroundColor: {r: 0.36078432, g: 0.08235294, b: 1, a: 0.39215687}
+  musicTheme: {fileID: 11400000, guid: 0ea740df856f2424c9bc2273931ae400, type: 2}
+  saveStorage: {fileID: 11400000, guid: 1458f9b8798b4f147b62b7883c2ba217, type: 2}
+  tutorial: {fileID: 11400000, guid: dfffd1175eb6cb44293128d431c0b55c, type: 2}
+  progression: 010000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000c0000000c0000000c000000
