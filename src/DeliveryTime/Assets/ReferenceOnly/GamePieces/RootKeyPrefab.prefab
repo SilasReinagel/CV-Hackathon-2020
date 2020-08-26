@@ -158,6 +158,11 @@ MonoBehaviour:
     ConstantValue: 0
     FloatVariable: {fileID: 11400000, guid: 1dccffabc4f81ef40903790673180c5f, type: 2}
   map: {fileID: 11400000, guid: 3e1868dedbe7c5945b4fe845baa54d80, type: 2}
+  initialFacing: 0
+  secondsToRotate:
+    UseConstant: 1
+    ConstantValue: 0.16
+    FloatVariable: {fileID: 0}
   rotateTarget: {fileID: 0}
   shouldRotate: 0
 --- !u!114 &109438317646650989

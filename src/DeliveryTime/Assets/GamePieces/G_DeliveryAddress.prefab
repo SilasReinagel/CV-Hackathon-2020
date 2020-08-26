@@ -122,7 +122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _secondsToZoom: 2
-  _offset: {x: 0, y: 5, z: -2}
+  _offset: {x: 0, y: 5, z: -1}
 --- !u!114 &-1747672349832717397
 MonoBehaviour:
   m_ObjectHideFlags: 0

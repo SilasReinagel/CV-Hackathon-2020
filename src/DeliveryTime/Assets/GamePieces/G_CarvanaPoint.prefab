@@ -233,10 +233,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameInputActive: {fileID: 11400000, guid: 24002322d985f6d4087239253827123b, type: 2}
   secondsToTravel:
-    UseConstant: 1
+    UseConstant: 0
     ConstantValue: 0.6
-    FloatVariable: {fileID: 0}
+    FloatVariable: {fileID: 11400000, guid: 1dccffabc4f81ef40903790673180c5f, type: 2}
   map: {fileID: 11400000, guid: 3e1868dedbe7c5945b4fe845baa54d80, type: 2}
+  initialFacing: 0
+  secondsToRotate:
+    UseConstant: 1
+    ConstantValue: 0.16
+    FloatVariable: {fileID: 0}
   rotateTarget: {fileID: 0}
   shouldRotate: 0
 --- !u!82 &1596844978472325972
