@@ -41,7 +41,7 @@ public sealed class SelectedTilePresenter : MonoBehaviour
             _selectionIndicator = Instantiate(indicatorPrototype, transform);
 
         var parentPos = p.transform.position;
-        _selectionIndicator.transform.position = new Vector3(parentPos.x, parentPos.y, _selectionIndicator.transform.position.z);
+        _selectionIndicator.transform.localPosition = new Vector3(parentPos.x, parentPos.y, _selectionIndicator.transform.position.z);
         _selectionIndicator.transform.SetParent(p.transform);
         _selectionIndicator.SetActive(true);
     }
