@@ -169,8 +169,9 @@ GameObject:
   - component: {fileID: 7563459634235201002}
   - component: {fileID: 7942403828197849500}
   - component: {fileID: 8586726168639401260}
+  - component: {fileID: 1284262409092770765}
   m_Layer: 0
-  m_Name: LevelSelectButton
+  m_Name: DeliveryTimeLevelSelectButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -288,3 +289,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   label: {fileID: 8411679903473901439}
+--- !u!114 &1284262409092770765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8147758674917602794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e35eba71011d4f0bbe846565f92bf6d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 803f0cb9700915d488eaad65eb268c6a, type: 3}
+  player: {fileID: 11400000, guid: 86eac65d09e3f1643a51c753e9397bf6, type: 2}

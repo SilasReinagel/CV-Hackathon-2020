@@ -354,7 +354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   source: {fileID: 1596844978472325972}
-  clip: {fileID: 8300000, guid: 913123003fd507d49985e10ed30de12b, type: 3}
+  clip: {fileID: 8300000, guid: a2efffd63ed1f874b9c10c6d3527f280, type: 3}
   volume:
     UseConstant: 1
     ConstantValue: 0.5
