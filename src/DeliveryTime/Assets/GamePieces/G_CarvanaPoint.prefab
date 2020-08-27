@@ -640,6 +640,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SimpleSelectionIndicator
       objectReference: {fileID: 0}
+    - target: {fileID: 6680630075791543743, guid: 78706a8fc0af3c14b959a8d9ef99e5f5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8094574383476803112, guid: 78706a8fc0af3c14b959a8d9ef99e5f5,
         type: 3}
       propertyPath: m_LocalPosition.x
