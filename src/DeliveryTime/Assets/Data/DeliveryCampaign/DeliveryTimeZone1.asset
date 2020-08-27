@@ -14,6 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   value:
   - {fileID: 11400000, guid: 53bce6568902ad845b72243823111f80, type: 2}
+  - {fileID: 11400000, guid: fcc1f73d6f920694a9dcfaeed83b0e93, type: 2}
+  - {fileID: 11400000, guid: b0aa9a43b8c774044ba92b130a986b0c, type: 2}
+  - {fileID: 11400000, guid: 3a8d37375a557bf47957a11560736925, type: 2}
   story: []
   starsRequired:
     UseConstant: 1
@@ -29,5 +32,5 @@ MonoBehaviour:
   backgroundColor: {r: 0, g: 0, b: 0, a: 0}
   musicTheme: {fileID: 0}
   saveStorage: {fileID: 11400000, guid: 1458f9b8798b4f147b62b7883c2ba217, type: 2}
-  tutorial: {fileID: 11400000, guid: 52e4573108181a64781b312e236b60c0, type: 2}
+  tutorial: {fileID: 0}
   progression: 
