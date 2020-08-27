@@ -18,6 +18,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b0aa9a43b8c774044ba92b130a986b0c, type: 2}
   - {fileID: 11400000, guid: 3a8d37375a557bf47957a11560736925, type: 2}
   - {fileID: 11400000, guid: 0789d6e35c51a8249a56990d78e97f97, type: 2}
+  - {fileID: 11400000, guid: 609263dc680940743aa01304b71dcd25, type: 2}
   story: []
   starsRequired:
     UseConstant: 1
