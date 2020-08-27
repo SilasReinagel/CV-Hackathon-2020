@@ -25,14 +25,16 @@ public class UndoButton : MonoBehaviour
     {
         if (history.Count < 1)
         {
-            text.text = "";
+            if (text != null)
+                text.text = "";
             image.enabled = false;
             if (otherVisual != null)
                 otherVisual.SetActive(false);
         }
         else
         {
-            text.text = history.Count.ToString();
+            if (text != null)
+                text.text = history.Count.ToString();
             image.enabled = true;
             image.SetAllDirty();
             button.enabled = false;
