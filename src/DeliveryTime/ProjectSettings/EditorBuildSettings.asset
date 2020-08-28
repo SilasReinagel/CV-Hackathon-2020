@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DeliveryTimeSummaryScene.unity
     guid: 09f6c915c811f2841817718f67d2d1eb
+  - enabled: 0
+    path: Assets/Scenes/DeliveryTimeOpeningScene.unity
+    guid: f76221d334cb5d74481ee68338fb9db0
   m_configObjects: {}

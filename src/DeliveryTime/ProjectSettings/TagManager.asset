@@ -7,6 +7,7 @@ TagManager:
   - UiSounds
   - Music
   - DigitLines
+  - Screenshots
   layers:
   - Default
   - TransparentFX
