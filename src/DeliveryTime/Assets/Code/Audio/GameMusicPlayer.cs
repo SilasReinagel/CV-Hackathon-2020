@@ -4,7 +4,8 @@ using UnityEngine;
 public sealed class GameMusicPlayer : ScriptableObject
 {
     [SerializeField, DTValidator.Optional] private AudioSource musicSource;
-
+    [SerializeField] private string lastSongName;
+    
     public void Init(AudioSource source)
     {
         StopMusicIfPlaying();
@@ -16,7 +17,9 @@ public sealed class GameMusicPlayer : ScriptableObject
         if (musicSource == null)
             Init(source);
     }
-    
+
+    public string LastSongName => lastSongName;
+
     public void PlaySelectedMusicLooping(AudioClip clipToPlay)
     {
         if (musicSource == null)
@@ -29,6 +32,7 @@ public sealed class GameMusicPlayer : ScriptableObject
             return;
         
         StopMusicIfPlaying();
+        lastSongName = clipToPlay.name;
         musicSource.clip = clipToPlay;
         musicSource.loop = true;
         musicSource.Play();

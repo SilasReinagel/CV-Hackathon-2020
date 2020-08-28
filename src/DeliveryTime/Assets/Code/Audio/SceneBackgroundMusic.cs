@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Linq;
 using UnityEngine;
 
 public sealed class SceneBackgroundMusic : MonoBehaviour
@@ -12,7 +13,9 @@ public sealed class SceneBackgroundMusic : MonoBehaviour
     private void Start()
     {
         StartCoroutine(ExecuteAfterDelay(delayDuration, 
-            () => musicPlayer.PlaySelectedMusicLooping(altMusic.Concat(music).Random())));
+            () => musicPlayer.PlaySelectedMusicLooping(altMusic.Concat(music)
+                .Where(x => !x.name.Equals(musicPlayer.LastSongName))
+                .Random())));
     }
     
     private IEnumerator ExecuteAfterDelay(float duration, Action action)
