@@ -1,5 +1,49 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1617932487240338
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8558165770387412008}
+  - component: {fileID: 9046896075697800597}
+  m_Layer: 0
+  m_Name: D1-FinalCameraAngle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8558165770387412008
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617932487240338}
+  m_LocalRotation: {x: -0.19125831, y: 0.18976201, z: -0.67827964, w: 0.6836281}
+  m_LocalPosition: {x: 0.44144225, y: 9.689972, z: -3.2945008}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8299580645831151748}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 58.74, y: -0.45000002, z: 0}
+--- !u!114 &9046896075697800597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617932487240338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3111075edcf649abb2593231f08ad2d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  map: {fileID: 11400000, guid: 3e1868dedbe7c5945b4fe845baa54d80, type: 2}
 --- !u!1 &3554800832083657979
 GameObject:
   m_ObjectHideFlags: 0
@@ -196,6 +240,7 @@ Transform:
   - {fileID: 8299580644888317006}
   - {fileID: 8299580646417122640}
   - {fileID: 5424199089534844992}
+  - {fileID: 8558165770387412008}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}

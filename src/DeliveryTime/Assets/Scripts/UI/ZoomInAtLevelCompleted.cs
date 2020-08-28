@@ -34,6 +34,6 @@ public class ZoomInAtLevelCompleted : OnMessage<LevelCompleted, LevelReset>
         if (!_zooming)
             return;
         _t = Math.Min(1, _t + Time.deltaTime / _secondsToZoom);
-        _camera.transform.position = Vector3.Lerp(_startingPosition, new Vector3(transform.position.x + _offset.x, transform.position.y + _offset.y, _offset.z), _t);
+        _camera.transform.position = Vector3.Lerp(_startingPosition, transform.position + _offset, _t);
     }
 }

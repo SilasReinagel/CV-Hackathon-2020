@@ -14,6 +14,7 @@ public class CurrentLevelMap : ScriptableObject
     [DTValidator.Optional, SerializeField] private List<GameObject> selectableObjects = new List<GameObject>();
     [DTValidator.Optional, SerializeField] private List<GameObject> collectibleObjects = new List<GameObject>();
     [DTValidator.Optional, SerializeField] private Dictionary<GameObject, ObjectRules> destroyedObjects = new Dictionary<GameObject, ObjectRules>();
+    [SerializeField] private Transform finalCameraAngle;
     [SerializeField] private Vector2 min;
     [SerializeField] private Vector2 max;
     [SerializeField] private string levelName;
@@ -30,6 +31,8 @@ public class CurrentLevelMap : ScriptableObject
     public IEnumerable<MovementRestrictionRule> MovementRestrictionRules => movementRestrictionRules;
     public IEnumerable<GameObject> Selectables => selectableObjects;
     public int NumOfJumpables => jumpableObjects.Count;
+    public Transform FinalCameraAngle => finalCameraAngle;
+
     public bool HasLost { get; set; }
 
     public void InitLevel(string activeLevelName)
@@ -66,6 +69,7 @@ public class CurrentLevelMap : ScriptableObject
     public void RegisterWalkableTile(GameObject obj) => UpdateSize(() => walkableTiles.Add(obj));
     public void RegisterBlockingObject(GameObject obj) => UpdateSize(() => blockedTiles.Add(obj));
     public void RegisterAsCollectible(GameObject obj) => collectibleObjects.Add(obj);
+    public void RegisterFinalCameraAngle(Transform t) => finalCameraAngle = t;
 
     private void UpdateSize(Action a)
     {
