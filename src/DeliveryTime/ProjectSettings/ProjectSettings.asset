@@ -675,10 +675,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: 0a3d283f-20b3-461b-b7cb-d425be4b3da6
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: DeliveryTime
+  organizationId: enigma-dragons
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
