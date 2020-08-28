@@ -6,7 +6,6 @@ public class MovingPiece : MonoBehaviour
     [SerializeField] private LockBoolVariable gameInputActive;
     [SerializeField] private FloatReference secondsToTravel;
     [SerializeField] private CurrentLevelMap map;
-    [SerializeField] private Facing initialFacing;
     [SerializeField] private FloatReference secondsToRotate = new FloatReference(0.16f);
     [SerializeField] private GameObject rotateTarget;
     [SerializeField] private bool shouldRotate;
@@ -17,11 +16,6 @@ public class MovingPiece : MonoBehaviour
     private Vector3 _start;
     private Vector3 _end;
     private float _t;
-
-    private void Awake()
-    {
-        UpdateRotation(initialFacing);   
-    }
     
     private void Execute(UndoPieceMoved msg)
     {
