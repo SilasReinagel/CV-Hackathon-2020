@@ -11,6 +11,7 @@ public sealed class ShowDeliveryTimeTotalScore : MonoBehaviour
     
     private IEnumerator ShowScore()
     {
+        score.text = $"{tracker.TotalStars}/{tracker.PossibleStars}";
         for (var i = 0; i < tracker.TotalStars; i++)
         {
             score.text = $"{i + 1}/{tracker.PossibleStars}";
