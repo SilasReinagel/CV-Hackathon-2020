@@ -5,6 +5,8 @@ public sealed class DeliveryZoneCommandHandler : OnMessage<RetryLevel, GoToNextL
     [SerializeField] private DeliveryTimeNavigator navigator;
     [SerializeField] private GameLevels levels;
     [SerializeField] private CurrentLevel currentLevel;
+    [SerializeField] private DeliveryTimeScoreTracker scoreTracker;
+    [SerializeField] private StarCounter counter;
     
     protected override void Execute(RetryLevel msg)
     {
@@ -17,7 +19,13 @@ public sealed class DeliveryZoneCommandHandler : OnMessage<RetryLevel, GoToNextL
         if (levels.Value.Length > nextLevelNumber)
         {
             currentLevel.SelectLevel(levels.Value[nextLevelNumber], 0, nextLevelNumber);
+            scoreTracker.RecordLevel(counter.NumStars);
             navigator.NavigateToGameScene();
+        }
+        else
+        {
+            scoreTracker.RecordLevel(counter.NumStars);
+            navigator.NavigateToSummaryScene();
         }
     }
 }
