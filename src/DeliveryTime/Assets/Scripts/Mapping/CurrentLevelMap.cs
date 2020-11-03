@@ -32,6 +32,9 @@ public class CurrentLevelMap : ScriptableObject
     public IEnumerable<GameObject> Selectables => selectableObjects;
     public int NumOfJumpables => jumpableObjects.Count;
     public Transform FinalCameraAngle => finalCameraAngle;
+    public IEnumerable<GameObject> Walkables => walkableTiles;
+    public IEnumerable<MovementOptionRule> MovementOptions => movementOptionRules;
+    public IEnumerable<MovementRestrictionRule> MovementRestrictions => movementRestrictionRules;
 
     public bool HasLost { get; set; }
 

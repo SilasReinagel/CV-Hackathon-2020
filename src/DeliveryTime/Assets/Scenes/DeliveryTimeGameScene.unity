@@ -22066,6 +22066,7 @@ GameObject:
   - component: {fileID: 6336780416438229695}
   - component: {fileID: 6815042394106056352}
   - component: {fileID: 6815042394106056353}
+  - component: {fileID: 6815042394106056354}
   m_Layer: 0
   m_Name: ReactiveSystems
   m_TagString: Untagged
@@ -22103,6 +22104,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numStars: 0
+--- !u!114 &6815042394106056354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6815042394106056351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dddfc7ff6bb5419b825e5d094289b907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  map: {fileID: 11400000, guid: 3e1868dedbe7c5945b4fe845baa54d80, type: 2}
+  piece: {fileID: 11400000, guid: d282e5116cb67fc4ea25819f6057bab2, type: 2}
+  currentLevel: {fileID: 11400000, guid: f81c10460cdb9464397ed5864a15114b, type: 2}
+  indicatorPrototype: {fileID: 3917470170391679815, guid: 3e08c9dd5d18f6642aa0ebcaab778840,
+    type: 3}
 --- !u!114 &7089870335177044603
 MonoBehaviour:
   m_ObjectHideFlags: 0

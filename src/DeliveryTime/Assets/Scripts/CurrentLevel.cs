@@ -2,8 +2,8 @@
 
 public class CurrentLevel : ScriptableObject
 {
-    [DTValidator.Optional, SerializeField] private GameLevel selectedLevel;
-    [DTValidator.Optional, SerializeField] private GameObject activeLevelPrefab;
+    [SerializeField] private GameLevel selectedLevel;
+    [SerializeField] private GameObject activeLevelPrefab;
     [SerializeField] private int currentZoneNum;
     [SerializeField] private int currentLevelNum;
     [SerializeField] private bool enableDebugLogging;
@@ -11,6 +11,7 @@ public class CurrentLevel : ScriptableObject
     public GameLevel ActiveLevel => selectedLevel;
     public int ZoneNumber => currentZoneNum;
     public int LevelNumber => currentLevelNum;
+    public Transform Transform => activeLevelPrefab.transform;
 
     public void SelectLevel(GameLevel level, int zoneNum, int levelNum)
     {
