@@ -514,7 +514,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 4
-  m_Spacing: 40
+  m_Spacing: 80
   m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 0
@@ -6363,6 +6363,10 @@ MonoBehaviour:
   mixer: {fileID: 24100000, guid: 44d15a14bea7a214eb3bc3739c813508, type: 2}
   slider: {fileID: 4447251936346481939}
   valueName: MusicVolume
+  reductionDb:
+    UseConstant: 1
+    ConstantValue: 0
+    FloatVariable: {fileID: 0}
 --- !u!224 &4551056326944931747
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6821,6 +6825,10 @@ MonoBehaviour:
   mixer: {fileID: 24100000, guid: 44d15a14bea7a214eb3bc3739c813508, type: 2}
   slider: {fileID: 6235592416428269962}
   valueName: SoundVolume
+  reductionDb:
+    UseConstant: 1
+    ConstantValue: 0
+    FloatVariable: {fileID: 0}
 --- !u!114 &6003259901234280755
 MonoBehaviour:
   m_ObjectHideFlags: 0
