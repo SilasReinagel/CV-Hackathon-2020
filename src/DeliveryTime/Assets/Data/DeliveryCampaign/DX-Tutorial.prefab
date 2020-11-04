@@ -350,6 +350,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3640930460817543311}
+  - component: {fileID: 5134624929182396104}
   m_Layer: 0
   m_Name: DX-Tutorial
   m_TagString: Untagged
@@ -375,6 +376,80 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
+--- !u!114 &5134624929182396104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3640930460817543310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04e63e6635c34326aa03a3eacf3efbf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  segments:
+  - Location:
+      X: 0
+      Y: 0
+    Text: 'Your goal is to deliver the car to the Delivery Address.
+
+
+      Click
+      on the Hauler to select it.
+
+
+      Then click on the newly indicated road
+      tile to move the Hauler.'
+  - Location:
+      X: 2
+      Y: 3
+    Text: "Very good! \n\nThe Hauler is  powered by Carvana Power. It only moves
+      by using Carvana power to go places.\n\nKeep on going."
+  - Location:
+      X: 0
+      Y: 3
+    Text: 'If you ever get stuck, or want to take back your most recent move, click
+      on the Undo or Reset buttons in the bottom-right of the screen.
+
+
+      So
+      far, you''re doing great! Keep on going. '
+  - Location:
+      X: 0
+      Y: 5
+    Text: 'Now your Hauler is stuck. To continue, you need to set up Carvana Power
+      in front of the Hauler.
+
+
+      Carvana Tokens can move just like the Hauler
+      does.
+
+
+      Click on a Carvana Power token and move it in front of the Hauler.'
+  - Location:
+      X: 1
+      Y: 5
+    Text: "Very nice! \n\nYou figured it out! \n\nNow the Hauler can continue onwards."
+  - Location:
+      X: 2
+      Y: 5
+    Text: "Great! \n\nAhead of you is a Gift for you to collect. Bringing Customers
+      a personalized Gift as a surprise will increase their Happiness.\n\nMove the
+      Hauler onto the road with the Gift."
+  - Location:
+      X: 4
+      Y: 5
+    Text: 'Fantastic!
+
+
+      You are now just two moves away from delivering the
+      car and making a new owner very happy!'
+  - Location:
+      X: 6
+      Y: 7
+    Text: 
+  beginImmediately: 1
 --- !u!1 &3640930462023699524
 GameObject:
   m_ObjectHideFlags: 0
