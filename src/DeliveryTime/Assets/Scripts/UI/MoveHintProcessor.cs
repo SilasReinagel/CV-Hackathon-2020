@@ -64,7 +64,7 @@ public class MoveHintProcessor : OnMessage<PieceMovementStarted, PieceMovementFi
             .Distinct()
             .ToArray();
         
-        Debug.Log($"{movableLocations.Length} Possible Moves for {obj.name}");
+        //Debug.Log($"{movableLocations.Length} Possible Moves for {obj.name}");
         for (var i = 0; i < movableLocations.Length; i++)
         {
             _hints[i].transform.SetParent(currentLevel.Transform);
@@ -77,7 +77,6 @@ public class MoveHintProcessor : OnMessage<PieceMovementStarted, PieceMovementFi
 
     private void HideAllHints()
     {
-        Debug.Log("Hide Hints");
         _hints.ForEach(h => h.SetActive(false));
     }
 }
