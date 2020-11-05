@@ -13,9 +13,12 @@ public sealed class SceneBackgroundMusic : MonoBehaviour
     private void Start()
     {
         StartCoroutine(ExecuteAfterDelay(delayDuration, 
-            () => musicPlayer.PlaySelectedMusicLooping(altMusic.Concat(music)
-                .Where(x => !x.name.Equals(musicPlayer.LastSongName))
-                .Random())));
+            () => musicPlayer.PlaySelectedMusicLooping(
+                altMusic.Length > 0 
+                    ? altMusic.Concat(music)
+                        .Where(x => !x.name.Equals(musicPlayer.LastSongName))
+                        .Random()
+                    : music)));
     }
     
     private IEnumerator ExecuteAfterDelay(float duration, Action action)
