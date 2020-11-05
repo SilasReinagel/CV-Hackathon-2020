@@ -1,4 +1,6 @@
-﻿using DG.Tweening;
+﻿using System;
+using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 
 public class MovingPiece : MonoBehaviour
@@ -16,6 +18,16 @@ public class MovingPiece : MonoBehaviour
     private Vector3 _start;
     private Vector3 _end;
     private float _t;
+    private readonly Stack<Facing> _previousFacings = new Stack<Facing>(200);
+
+    private void Awake()
+    {
+        if (!shouldRotate)
+            return;
+        
+        _facing = (Facing)((Math.Round(rotateTarget.transform.localRotation.eulerAngles.z) / 90) * 90);
+        Debug.Log($"Facing: {_facing}");
+    }
     
     private void Execute(UndoPieceMoved msg)
     {
@@ -24,6 +36,8 @@ public class MovingPiece : MonoBehaviour
             transform.localPosition = new Vector3(msg.From.X, msg.From.Y, transform.localPosition.z);
             Message.Publish(new PieceDeselected());
             Message.Publish(new PieceSelected(gameObject));
+            if (_previousFacings.Count > 0)
+                SetRotationInstant(_previousFacings.Pop());
         }
     }
 
@@ -47,6 +61,7 @@ public class MovingPiece : MonoBehaviour
                 newFacing = Facing.Up;
             if (msg.Delta.X < 0)
                 newFacing = Facing.Down;
+            _previousFacings.Push(_facing);
             UpdateRotation(newFacing);
         }
     }
@@ -59,6 +74,17 @@ public class MovingPiece : MonoBehaviour
             _facing = facing;
 
             rotateTarget.transform.DOLocalRotate(newRotationVector, secondsToRotate);
+        }
+    }
+
+    private void SetRotationInstant(Facing facing)
+    {
+        if (shouldRotate)
+        {
+            var newRotationVector = new Vector3(0, 0, (int)facing);
+            _facing = facing;
+
+            rotateTarget.transform.localRotation = Quaternion.Euler(newRotationVector);
         }
     }
 

@@ -77,6 +77,9 @@ public class CurrentLevelMap : ScriptableObject
     private void UpdateSize(Action a)
     {
         a();
+        if (walkableTiles == null || walkableTiles.Any(w => w == null))
+            return;
+        
         var tiles = walkableTiles.Concat(blockedTiles).Select(x => new TilePoint(x)).ConcatIfNotNull(bitVaultLocation).ToList();
         min = new Vector2(tiles.Min(t => t.X), tiles.Min(t => t.Y));
         max = new Vector2(tiles.Max(t => t.X), tiles.Max(t => t.Y));
